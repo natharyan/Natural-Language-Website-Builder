@@ -8,6 +8,7 @@ from utils.keymap import get_section, function_map, function_types, make_tableLi
 from random import randint
 from utils.nlp import nlp
 import json
+import os
 
 
 def makeSections():
@@ -38,15 +39,16 @@ config(title='Dynamic WebApp Builder',description='build websites by typing engl
 def main():
     makeSections()
     webapp_builderList = []
-    with open('your_webappbuilder.json','r') as json_file:
-        json_data = json.load(json_file)
-    webapp_builderList = json_data["list"]
+    if os.path.exists('your_webappbuilder.json'):
+        with open('your_webappbuilder.json','r') as json_file:
+            json_data = json.load(json_file)
+        webapp_builderList = json_data["list"]
     print(webapp_builderList,type(webapp_builderList))
     makewebapp(webapp_builderList)
     while True:
         i = randint(0,len(prompts)-1)
         key = input(help_text="Hint: "+prompts[i],type=TEXT)
-        if key in ['end','exit']:
+        if key in ['save','end','exit']:
             loadwebapp(webapp_builderList)
             break
         elif key in ['restart','clear']:
@@ -81,4 +83,4 @@ def main():
 
     
 if __name__ == '__main__':
-    start_server(main,remote_access=True,debug=True)
+    start_server(main,port=8000,remote_access=True,debug=True)

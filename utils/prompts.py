@@ -1,2 +1,2 @@
-prompts = ["Hi, give me a header with the title as 'Culinary Chronicles' and the description as 'A journey through global flavors, recipes, and culinary traditions.'", "to the body add the image 'hero_image.png/300x200'","to the body add the table 'sample_csv.csv'","To restart: clear","To save progress: end"
+prompts = ["Hi, give me a header with the title as 'Culinary Chronicles' and the description as 'A journey through global flavors, recipes, and culinary traditions.'", "to the body add the image 'hero_image.png/300x200'","to the body add the table 'sample_csv.csv'","To restart: clear","To save progress: save. Then refresh"
     ]
