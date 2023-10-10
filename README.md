@@ -5,6 +5,7 @@ Build a website element by element by typing in natural language.
 Used nltk for tagging texts and bootstrap elements for generating layouts.
 
 Example prompts:
+
 \<section (header, body, footer)\> \<function\> \<content\>
 1. `Hi, give me a header with the title 'Culinary Chronicles' and the description as 'A journey through global flavours, recipes, and culinary traditions.'`
 2. `To the body add the description 'description for the body'`
