@@ -2,7 +2,7 @@
 
 Build a website element by element by typing in natural language.
 
-Used nltk for tagging texts and bootstrap elements for generating layouts.
+Used nltk for tagging texts and bootstrap components for generating layouts.
 
 Example prompts:
 
