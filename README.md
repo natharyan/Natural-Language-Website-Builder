@@ -15,3 +15,5 @@ Example prompts:
 6. `To the body add the text 'content for the body'`
 7. To restart: `clear`
 8. To save progress: `save` Then refresh
+
+Current features: heading, subheading, body text, images, tables, clear, save.
