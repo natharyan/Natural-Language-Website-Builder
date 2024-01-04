@@ -2,7 +2,7 @@
 
 Build a website element by element by typing in natural language.
 
-Used nltk for tagging texts and bootstrap components for generating layouts.
+Used nltk for tokenization and pyweb.io for generating the UI components (can be changed to frontend of choice)
 
 Example prompts:
 
