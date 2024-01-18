@@ -1,4 +1,4 @@
-# webapp_builder
+# Natural-Language-Website-Builder
 
 A website development tool that is unconventional from other generative AI website builders as it allows users to build
 website components sequentially and customise each component as per their choice.
