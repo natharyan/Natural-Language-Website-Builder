@@ -1,6 +1,6 @@
 # Natural-Language-Website-Builder
 
-A website development tool that is unconventional from other generative AI website builders as it allows users to build
+A website development tool that is distinct from other generative AI website builders as it allows users to build
 website components sequentially and customise each component as per their choice.
 
 I have used nltk for tokenization and pyweb.io for generating the UI components. Pyweb.io can be replaced with any frontend templates of your choice.
