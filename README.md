@@ -1,10 +1,11 @@
 # webapp_builder
 
-Build a website element by element by typing in natural language.
+A website development tool that is unconventional from other generative AI website builders as it allows users to build
+website components sequentially and customise each component as per their choice.
 
-Used nltk for tokenization and pyweb.io for generating the UI components (can be changed to frontend of choice)
+I have used nltk for tokenization and pyweb.io for generating the UI components. Pyweb.io can be replaced with any frontend templates of your choice.
 
-Example prompts:
+Some example prompts are:
 
 \<section (header, body, footer)\> \<function\> '\<content\>'
 1. `Hi, give me a header with the title 'Culinary Chronicles' and the description as 'A journey through global flavours, recipes, and culinary traditions.'`
